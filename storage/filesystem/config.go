@@ -4,9 +4,9 @@ import (
 	stdioutil "io/ioutil"
 	"os"
 
-	"gopkg.in/src-d/go-git.v4/config"
-	"gopkg.in/src-d/go-git.v4/storage/filesystem/internal/dotgit"
-	"gopkg.in/src-d/go-git.v4/utils/ioutil"
+	"github.com/newsletter2go/go-git/config"
+	"github.com/newsletter2go/go-git/storage/filesystem/internal/dotgit"
+	"github.com/newsletter2go/go-git/utils/ioutil"
 )
 
 type ConfigStorage struct {

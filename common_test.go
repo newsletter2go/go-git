@@ -4,11 +4,11 @@ import (
 	"testing"
 
 	billy "gopkg.in/src-d/go-billy.v3"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/packfile"
-	"gopkg.in/src-d/go-git.v4/plumbing/transport"
-	"gopkg.in/src-d/go-git.v4/storage/filesystem"
-	"gopkg.in/src-d/go-git.v4/storage/memory"
+	"github.com/newsletter2go/go-git/plumbing"
+	"github.com/newsletter2go/go-git/plumbing/format/packfile"
+	"github.com/newsletter2go/go-git/plumbing/transport"
+	"github.com/newsletter2go/go-git/storage/filesystem"
+	"github.com/newsletter2go/go-git/storage/memory"
 
 	"github.com/src-d/go-git-fixtures"
 	. "gopkg.in/check.v1"

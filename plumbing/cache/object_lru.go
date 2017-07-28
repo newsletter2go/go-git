@@ -3,7 +3,7 @@ package cache
 import (
 	"container/list"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
+	"github.com/newsletter2go/go-git/plumbing"
 )
 
 // ObjectLRU implements an object cache with an LRU eviction policy and a

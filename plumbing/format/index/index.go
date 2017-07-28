@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"time"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/filemode"
+	"github.com/newsletter2go/go-git/plumbing"
+	"github.com/newsletter2go/go-git/plumbing/filemode"
 )
 
 var (

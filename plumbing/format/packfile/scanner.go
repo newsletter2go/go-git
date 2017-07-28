@@ -10,9 +10,9 @@ import (
 	"io"
 	stdioutil "io/ioutil"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/utils/binary"
-	"gopkg.in/src-d/go-git.v4/utils/ioutil"
+	"github.com/newsletter2go/go-git/plumbing"
+	"github.com/newsletter2go/go-git/utils/binary"
+	"github.com/newsletter2go/go-git/utils/ioutil"
 )
 
 var (

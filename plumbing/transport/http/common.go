@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"strconv"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/protocol/packp"
-	"gopkg.in/src-d/go-git.v4/plumbing/transport"
+	"github.com/newsletter2go/go-git/plumbing"
+	"github.com/newsletter2go/go-git/plumbing/protocol/packp"
+	"github.com/newsletter2go/go-git/plumbing/transport"
 )
 
 // it requires a bytes.Buffer, because we need to know the length

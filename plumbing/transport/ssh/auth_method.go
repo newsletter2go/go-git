@@ -9,7 +9,7 @@ import (
 	"os/user"
 	"path/filepath"
 
-	"gopkg.in/src-d/go-git.v4/plumbing/transport"
+	"github.com/newsletter2go/go-git/plumbing/transport"
 
 	"github.com/xanzy/ssh-agent"
 	"golang.org/x/crypto/ssh"

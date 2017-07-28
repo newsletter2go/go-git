@@ -7,10 +7,10 @@ import (
 	"io"
 	"net/http"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/protocol/packp"
-	"gopkg.in/src-d/go-git.v4/plumbing/transport"
-	"gopkg.in/src-d/go-git.v4/utils/ioutil"
+	"github.com/newsletter2go/go-git/plumbing"
+	"github.com/newsletter2go/go-git/plumbing/protocol/packp"
+	"github.com/newsletter2go/go-git/plumbing/transport"
+	"github.com/newsletter2go/go-git/utils/ioutil"
 )
 
 type rpSession struct {

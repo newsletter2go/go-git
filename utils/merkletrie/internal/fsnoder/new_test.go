@@ -1,7 +1,7 @@
 package fsnoder
 
 import (
-	"gopkg.in/src-d/go-git.v4/utils/merkletrie/noder"
+	"github.com/newsletter2go/go-git/utils/merkletrie/noder"
 
 	. "gopkg.in/check.v1"
 )

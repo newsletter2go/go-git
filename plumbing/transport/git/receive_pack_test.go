@@ -12,8 +12,8 @@ import (
 	"time"
 
 	"github.com/src-d/go-git-fixtures"
-	"gopkg.in/src-d/go-git.v4/plumbing/transport"
-	"gopkg.in/src-d/go-git.v4/plumbing/transport/test"
+	"github.com/newsletter2go/go-git/plumbing/transport"
+	"github.com/newsletter2go/go-git/plumbing/transport/test"
 
 	. "gopkg.in/check.v1"
 )

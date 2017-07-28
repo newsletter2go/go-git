@@ -7,9 +7,9 @@ import (
 	"testing"
 
 	"github.com/src-d/go-git-fixtures"
-	. "gopkg.in/src-d/go-git.v4/plumbing/format/idxfile"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/packfile"
-	"gopkg.in/src-d/go-git.v4/storage/memory"
+	. "github.com/newsletter2go/go-git/plumbing/format/idxfile"
+	"github.com/newsletter2go/go-git/plumbing/format/packfile"
+	"github.com/newsletter2go/go-git/storage/memory"
 
 	. "gopkg.in/check.v1"
 )

@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/src-d/go-git-fixtures"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/storage/filesystem"
-	"gopkg.in/src-d/go-git.v4/storage/memory"
+	"github.com/newsletter2go/go-git/plumbing"
+	"github.com/newsletter2go/go-git/storage/filesystem"
+	"github.com/newsletter2go/go-git/storage/memory"
 
 	. "gopkg.in/check.v1"
 )

@@ -3,10 +3,10 @@ package object
 import (
 	"io"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/filemode"
-	"gopkg.in/src-d/go-git.v4/plumbing/storer"
-	"gopkg.in/src-d/go-git.v4/storage/filesystem"
+	"github.com/newsletter2go/go-git/plumbing"
+	"github.com/newsletter2go/go-git/plumbing/filemode"
+	"github.com/newsletter2go/go-git/plumbing/storer"
+	"github.com/newsletter2go/go-git/storage/filesystem"
 
 	"github.com/src-d/go-git-fixtures"
 	. "gopkg.in/check.v1"

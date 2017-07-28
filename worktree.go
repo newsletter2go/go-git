@@ -10,14 +10,14 @@ import (
 	"path/filepath"
 
 	"gopkg.in/src-d/go-billy.v3/util"
-	"gopkg.in/src-d/go-git.v4/config"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/filemode"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/index"
-	"gopkg.in/src-d/go-git.v4/plumbing/object"
-	"gopkg.in/src-d/go-git.v4/plumbing/storer"
-	"gopkg.in/src-d/go-git.v4/utils/ioutil"
-	"gopkg.in/src-d/go-git.v4/utils/merkletrie"
+	"github.com/newsletter2go/go-git/config"
+	"github.com/newsletter2go/go-git/plumbing"
+	"github.com/newsletter2go/go-git/plumbing/filemode"
+	"github.com/newsletter2go/go-git/plumbing/format/index"
+	"github.com/newsletter2go/go-git/plumbing/object"
+	"github.com/newsletter2go/go-git/plumbing/storer"
+	"github.com/newsletter2go/go-git/utils/ioutil"
+	"github.com/newsletter2go/go-git/utils/merkletrie"
 
 	"gopkg.in/src-d/go-billy.v3"
 )
